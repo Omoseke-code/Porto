@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:beige;">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark mb-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about" target="_blank">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Project</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="https://www.facebook.com/taniaqueen.abdulsalam" target="_blank">Facebook</a></li>
+                      <li><a class="dropdown-item" href="https://www.linkedin.com/in/omoseke-salami-90662a234" target="_blank">LinkedIn</a></li>
+                      <li><a class="dropdown-item" href="mailto:omosekesalami@gmail.com" target="_blank">Email</a></li>
+                      <li><a class="dropdown-item" href="#form" target="_self">Enquiry</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container-fluid mb-5">
+          <img src="./IMG-20220615-WA0021-01-02.jpeg" class="img-fluid center" alt="image of me"
+          width="80%">
+        </div>
+            <h1 style="text-align:center;" id="about">About Me</h1>
+            <div class="container" style="text-align:center;">
+             <p>Hi, my name is Salami Omoseke Halimah, I am a student of Agriculture in the University of Ilorin. 
+              I am from Nigeria. I am a dedicated learner or so 
+              does my school results say, top of my class at the university.</p>
+              <p>My life has taken a new direction into tech, planning on facing it full on. 
+                I got interested in starting a tech career because I had this enlightening conversation with a friend of mine, 
+                she’s a product manger currently interning at some company. 
+                She’s introduced me to the Tech4dev women techster’s bootcamp because that’s where she also started</p>
+                <p>My experience with tech has been pretty sweet and bitter at the same time. 
+                  After the talk with my friend I came across an ad for a course with Udacity. 
+                  I applied and chose Javascript, it was quite an exciting experience, it was a new thing, 
+                  I flowed with the teachings until I came across object-oriented Javascript which was a few weeks after 
+                  I started learning, things became a little complicated for me.</p>
+                <p>The bootcamp started and we kicked off with learning HTML and CSS of which I didn’t have any idea of. 
+                    I got to learn about the basics of these new things in a week with tutorials here and there, reading articles, 
+                    studying from when I woke up till midnight sometimes. 
+                    I remember that one time I had this really bad headache I could barely do anything but oh well another day came 
+                    and I continued learning.</p>
+                <p>I got excited through my first week in the bootcamp practiced with some type of tribute website, 
+                      something I did on Fela. It was pretty rough though but got me excited. 
+                      Learning bootstrap got me even more excited. 
+                      Our first assessment was a form, I was really proud of myself for the outcome.</p>
+                      <p>We’re in week two of the bootcamp, talking about Javascript. 
+                        It hasn’t been easy but I’ll try as much as I can to continue in this path and keep improving.</p>
+                </div>
+       <div class="container mt-5" id="form">
+            <h1>Contact Me</h1>
+            <div class="row g-3 mb-3 ">
+              <div class="col-2">
+                <span class="text-white">Name</span>
+              </div>
+      
+              <div class="col-5 ">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col-5">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
+           <form>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label text-white">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="something@gmail.com">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputLocation" class="col-sm-2 col-form-label text-white">Location</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword3" placeholder="Where are you?">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPhoneNumber" class="col-sm-2 col-form-label text-white">Phone Number</label>
+                <div class="col-sm-10">
+                  <input type="tel" class="form-control" id="inputPassword3" placeholder="0800 0000 000">
+                </div>
+              </div>
+              <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0 text-white">Gender</legend>
+                <div class="col-sm-10">
+                 
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Female
+                    </label>
+                  
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Male
+                    </label>
+                  
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Other
+                    </label>
+                  </div>
+               <p id="message">Message</p>
+              <div class="form-floating">
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Leave a message here</label>
+              </div>
+              <button type="submit" class="btn">Send</button>
+          
+            </form>
+          </div>
+        </div>
+        <div class="footer mt-5">
+          <pre>Copyright 2022 &copy; WOMEN SOFTWARE DEVELOPMENT ALL RIGHTS RESERVED
+          Email: omosekesalami@gmail.com       Phone Number: +2348037275646
+          17, Olaakinpelu Street, Lagos, NIgeria</pre>
+        </div>
+    </div>  
+</body>
+</html>
